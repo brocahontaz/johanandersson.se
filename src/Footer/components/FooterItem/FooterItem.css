@@ -2,6 +2,10 @@
   margin-right: 40px;
 }
 
+.FooterItem:last-child{
+  margin: 0;
+}
+
 .FooterItem .FooterIcon {
   color: var(--icon-light);
   margin-right: 5px;
