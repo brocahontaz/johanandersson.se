@@ -1,2 +1,2 @@
 # johanandersson.se
-Personal website, built with React and Next.js
+Personal website, built with React
