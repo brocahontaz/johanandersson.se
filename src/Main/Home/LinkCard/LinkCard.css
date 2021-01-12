@@ -1,22 +1,28 @@
 .LinkCard {
   color: var(--primary);
   font-family: Arial;
-  font-size: 58px;
+  font-size: 3rem;
   font-weight: 900;
   letter-spacing: -2px;
   text-transform: uppercase;
+  transform: translateY(-25px)
+}
+
+.LinkCard a {
+  color: var(--primary);
+  text-decoration: none;
 }
 
 .PerspectiveLine {
-  height: 50px;
+  height: 3rem;
   overflow: hidden;
   position: relative;
 }
 
 .PerspectiveText {
   margin: 0;
-  height: 50px;
-  line-height: 50px;
+  height: 3rem;
+  line-height: 3rem;
   transition: all 0.5s ease-in-out;
 }
 
@@ -47,4 +53,8 @@
 }
 .PerspectiveLine:nth-child(5) {
   left: 145px;
+}
+
+.LinkCardIcon {
+
 }

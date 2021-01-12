@@ -8,36 +8,52 @@ const LinkCard = () =>
       <p className='PerspectiveText'>
       </p>
       <p className='PerspectiveText'>
-      <FontAwesomeIcon icon={['fab', 'github']}/> Github
+        <a href='https://github.com/brocahontaz'>
+          <FontAwesomeIcon icon={['fab', 'github']} className='LinkCardIcon'/> Github
+        </a>
       </p>
     </div>
     <div className='PerspectiveLine'>
       <p className='PerspectiveText'>
-        <FontAwesomeIcon icon={['fab', 'github']}/> Github
+        <a href='https://github.com/brocahontaz'>
+          <FontAwesomeIcon icon={['fab', 'github']} className='LinkCardIcon'/> Github
+        </a>
       </p>
       <p className='PerspectiveText'>
-        <FontAwesomeIcon icon={['fab', 'linkedin']}/> LinkedIn
-      </p>
-    </div>
-    <div className='PerspectiveLine'>
-      <p className='PerspectiveText'>
-        <FontAwesomeIcon icon={['fab', 'linkedin']}/> LinkedIn
-      </p>
-      <p className='PerspectiveText'>
-        <FontAwesomeIcon icon={['fab', 'twitter']}/> Twitter
+        <a href='https://www.linkedin.com/in/johan-andersson-03ab40161/'>
+          <FontAwesomeIcon icon={['fab', 'linkedin']} className='LinkCardIcon'/> LinkedIn
+        </a>
       </p>
     </div>
     <div className='PerspectiveLine'>
       <p className='PerspectiveText'>
-        <FontAwesomeIcon icon={['fab', 'twitter']}/> Twitter
+        <a href='https://www.linkedin.com/in/johan-andersson-03ab40161/'>
+          <FontAwesomeIcon icon={['fab', 'linkedin']} className='LinkCardIcon'/> LinkedIn
+        </a>
       </p>
       <p className='PerspectiveText'>
-        <FontAwesomeIcon icon={['fas', 'envelope']}/> Email
+        <a href='https://twitter.com/brocahontaz'>
+          <FontAwesomeIcon icon={['fab', 'twitter']} className='LinkCardIcon'/> Twitter
+        </a>
       </p>
     </div>
     <div className='PerspectiveLine'>
       <p className='PerspectiveText'>
-        <FontAwesomeIcon icon={['fas', 'envelope']}/> Email
+        <a href='https://twitter.com/brocahontaz'>
+          <FontAwesomeIcon icon={['fab', 'twitter']} className='LinkCardIcon'/> Twitter
+        </a>
+      </p>
+      <p className='PerspectiveText'>
+        <a href='mailto:contact@johanandersson.se'>
+          <FontAwesomeIcon icon={['fas', 'envelope']} className='LinkCardIcon'/> Email
+        </a>
+      </p>
+    </div>
+    <div className='PerspectiveLine'>
+      <p className='PerspectiveText'>
+        <a href='mailto:contact@johanandersson.se'>
+          <FontAwesomeIcon icon={['fas', 'envelope']} className='LinkCardIcon'/> Email
+        </a>
       </p>
     </div>
   </div>

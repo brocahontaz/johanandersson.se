@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import Logo from 'components/Logo'
 import ProfileCard from './ProfileCard'
 import LinkCard from './LinkCard'
 

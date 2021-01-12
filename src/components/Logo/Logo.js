@@ -7,10 +7,10 @@ import ProfilePictureHover from 'assets/profile2.png'
 import ProfilePictureClick from 'assets/profile3.png'
 import { NavLink } from 'react-router-dom'
 
-const Logo = () =>
-  <div className='Logo'>
+const Logo = ({size}) =>
+  <div className={size ? 'Logo ' + size : 'Logo'}> 
     <NavLink to='/'>
-    <img src={ProfilePicture} alt='Avatar' className='Avatar' 
+    <img src={ProfilePicture} alt='Avatar' className={size ? 'Avatar ' + size : 'Avatar'} 
     onMouseEnter={e => e.target.src=ProfilePictureHover} 
     onMouseLeave={e => e.target.src=ProfilePicture}
     onClick={e => e.target.src=ProfilePictureClick}/>
