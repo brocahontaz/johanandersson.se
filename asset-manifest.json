@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/johanandersson.se/static/css/main.b9357ff4.chunk.css",
+    "main.js": "/johanandersson.se/static/js/main.4b74b199.chunk.js",
+    "main.js.map": "/johanandersson.se/static/js/main.4b74b199.chunk.js.map",
+    "runtime-main.js": "/johanandersson.se/static/js/runtime-main.b27b63dd.js",
+    "runtime-main.js.map": "/johanandersson.se/static/js/runtime-main.b27b63dd.js.map",
+    "static/js/2.5eefc7c8.chunk.js": "/johanandersson.se/static/js/2.5eefc7c8.chunk.js",
+    "static/js/2.5eefc7c8.chunk.js.map": "/johanandersson.se/static/js/2.5eefc7c8.chunk.js.map",
+    "index.html": "/johanandersson.se/index.html",
+    "static/css/main.b9357ff4.chunk.css.map": "/johanandersson.se/static/css/main.b9357ff4.chunk.css.map",
+    "static/js/2.5eefc7c8.chunk.js.LICENSE.txt": "/johanandersson.se/static/js/2.5eefc7c8.chunk.js.LICENSE.txt",
+    "static/media/profile-transparent.2f2d6f03.png": "/johanandersson.se/static/media/profile-transparent.2f2d6f03.png",
+    "static/media/profile1.e84c60d0.png": "/johanandersson.se/static/media/profile1.e84c60d0.png",
+    "static/media/profile2.1becbcb6.png": "/johanandersson.se/static/media/profile2.1becbcb6.png",
+    "static/media/profile3.22f5f502.png": "/johanandersson.se/static/media/profile3.22f5f502.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b27b63dd.js",
+    "static/js/2.5eefc7c8.chunk.js",
+    "static/css/main.b9357ff4.chunk.css",
+    "static/js/main.4b74b199.chunk.js"
+  ]
+}
