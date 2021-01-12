@@ -1,0 +1,17 @@
+.MenuButton {
+  box-sizing: border-box;
+  /*height: 80px;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--primary);
+  outline: none;
+  border: none;
+  color: var(--text-inverted);
+  padding: 10px;
+  font-size: 1.2rem;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}

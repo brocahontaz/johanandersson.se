@@ -1,3 +1,15 @@
+:root {
+  --primary: #478eaf;
+  --text-primary: #000000;
+  --text-inverted: #ffffff;
+  --icon-light: #808080;
+  --icon-dark: ;
+  --border-light: #e6e6e6;
+}
+
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
 }

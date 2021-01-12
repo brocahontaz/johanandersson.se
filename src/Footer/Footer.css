@@ -1,0 +1,26 @@
+.Footer {
+  width: 100%;
+  height: 150px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 1.2rem;
+}
+
+.Footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 15px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.Footer .Wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  border-top: 1px solid var(--border-light);
+}
