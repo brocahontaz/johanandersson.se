@@ -54,3 +54,24 @@
 .PerspectiveLine:nth-child(5) {
   left: 145px;
 }
+
+@media screen and (max-width: 1024px) {
+  .LinkCard {
+    margin-top: 100px;
+    margin-left: -200px;
+  }
+  .LinkCard:hover p{
+    transform: translate(0, 0px);
+  }
+  @media screen and (max-height: 1024px) {
+    .LinkCard {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .LinkCard {
+    display: none;
+  }
+}

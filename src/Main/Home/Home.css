@@ -18,3 +18,17 @@
   justify-content: left;
   padding-bottom: 100px;
 }
+
+@media screen and (max-width: 1024px) {
+  .Home .Wrapper {
+    width: 98%;
+    flex-direction: column;
+    padding: 50px;
+  }
+}
+
+@media screen and (max-height: 650px) {
+  .Home .Wrapper{
+    padding: 10px;
+  }
+}

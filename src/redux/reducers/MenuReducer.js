@@ -1,7 +1,7 @@
 import { TOGGLE_MENU } from '../actions/actionTypes'
 
 const initialState = {
-  open: true
+  open: false
 }
 
 const MenuReducer = (state = initialState, action) => {

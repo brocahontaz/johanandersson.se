@@ -24,6 +24,9 @@ logs
 **/*.backup.*
 **/*.back.*
 
+# production
+build
+
 node_modules
 bower_components
 

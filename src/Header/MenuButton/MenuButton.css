@@ -17,9 +17,11 @@
   z-index: 99;
   height: 40px;
   width: 40px;
+  opacity: 0.9;
 }
 
 .MenuButton.open {
   background: white;
   color: var(--primary);
+  opacity: 1.0;
 }

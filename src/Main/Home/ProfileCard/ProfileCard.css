@@ -21,3 +21,15 @@ p .ProfileIntro {
   font-size: 0.9rem;
   line-height: 1.0rem;
 }
+
+@media screen and (max-width: 1024px) {
+  .ProfileCard {
+    margin: 0;
+  }
+}
+
+@media screen and (max-height: 650px) {
+  .ProfileIntro {
+    display: none;
+  }
+}
