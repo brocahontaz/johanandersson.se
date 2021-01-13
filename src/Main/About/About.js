@@ -25,6 +25,9 @@ const About = () =>
       </div>
       <div className='Section'>
         <h3>Education</h3>
+        <div className='SubSection'>
+          
+        </div>
       </div>
     </div>
   </div>

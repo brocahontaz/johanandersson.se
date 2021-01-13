@@ -36,7 +36,33 @@ p.AboutParagraph {
 }
 
 .Section {
+  width: 100%;
   margin-top: 1.0rem;
   padding-bottom: 1.0rem;
   border-bottom: 1px solid var(--border-light);
+}
+
+@media screen and (max-width: 1024px) {
+  .About .Wrapper {
+    width: 98%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+  }
+  @media screen and (max-height: 650px) {
+    .About .Wrapper{
+      padding: 10px;
+    }
+  }
+}
+
+@media screen and (max-height: 550px) {
+  .About .Wrapper {
+    width: 98%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+  }
 }
