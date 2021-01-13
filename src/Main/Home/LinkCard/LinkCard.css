@@ -75,3 +75,9 @@
     display: none;
   }
 }
+
+@media screen and (max-height: 550px) {
+  .LinkCard {
+    display: none;
+  }
+}

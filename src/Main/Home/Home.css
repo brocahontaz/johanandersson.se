@@ -23,12 +23,23 @@
   .Home .Wrapper {
     width: 98%;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 50px;
+  }
+  @media screen and (max-height: 650px) {
+    .Home .Wrapper{
+      padding: 10px;
+    }
   }
 }
 
-@media screen and (max-height: 650px) {
-  .Home .Wrapper{
-    padding: 10px;
+@media screen and (max-height: 550px) {
+  .Home .Wrapper {
+    width: 98%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
   }
 }

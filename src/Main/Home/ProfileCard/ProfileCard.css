@@ -26,10 +26,19 @@ p .ProfileIntro {
   .ProfileCard {
     margin: 0;
   }
+  @media screen and (max-height: 650px) {
+    .ProfileIntro {
+      display: none;
+    }
+  }
 }
 
-@media screen and (max-height: 650px) {
+@media screen and (max-height: 550px) {
+  .ProfileCard {
+    margin: 0;
+  }
   .ProfileIntro {
     display: none;
   }
 }
+
