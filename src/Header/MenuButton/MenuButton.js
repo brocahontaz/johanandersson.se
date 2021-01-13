@@ -1,8 +1,17 @@
 import React from 'react'
 import './MenuButton.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { connect } from 'react-redux'
 
-const MenuButton = () =>
-  <button className='MenuButton'><FontAwesomeIcon icon='bars' /></button>
+const MenuButton = ({ click, open }) =>
+  <button className={open ? 'MenuButton open' : 'MenuButton'} onClick={() => { click() }}><FontAwesomeIcon icon={open ? 'times' : 'bars'} /></button>
 
-export default MenuButton
+const mapStateToProps = (state) => {
+  return {
+    open: state.menu.open
+  }
+}
+export default connect(
+  mapStateToProps,
+  null
+)(MenuButton)
