@@ -42,6 +42,18 @@ p.AboutParagraph {
   border-bottom: 1px solid var(--border-light);
 }
 
+.About ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 15px;
+  overflow: hidden;
+}
+
+.About ul li {
+  margin-bottom: 10px;
+}
+
 @media screen and (max-width: 1024px) {
   .About .Wrapper {
     width: 98%;

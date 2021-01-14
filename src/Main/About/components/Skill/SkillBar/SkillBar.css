@@ -1,0 +1,15 @@
+.SkillBar {
+  width: 100%;
+  height: 20px;
+  background: var(--border-light);
+}
+
+.ColoredBar {
+  height: 100%;
+  animation-name: fill;
+  animation-duration: 2s;
+}
+
+@keyframes fill {
+  from {width: 0}
+}
