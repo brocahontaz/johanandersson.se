@@ -2,6 +2,8 @@ import React from 'react'
 
 import './ExpItem.css'
 
+let paras = 0
+
 const ExpItem = ({title, icon, location, city, duration, description, lists}) => 
   <div className='ExpItem'>
     <div className='Header'>
@@ -14,14 +16,14 @@ const ExpItem = ({title, icon, location, city, duration, description, lists}) =>
       </div>
     </div>
     {description && description.map(paragraph => (
-      <p>{paragraph}</p>
+      <p key={title + paras++}>{paragraph}</p>
     ))}
     {lists && lists.map(list =>(
-      <div className='ExpListItem'>
+      <div className='ExpListItem' key={list.name + 'item'}>
         <h5>{list.name}</h5>
         <ul className='ExpList'>
         {list.items.map(item => (
-          <li> {item}</li>
+          <li key={item}> {item}</li>
         ))}
         </ul>
       </div>
