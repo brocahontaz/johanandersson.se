@@ -1,4 +1,6 @@
 .MenuButton {
+  position: fixed;
+  right: 20px;
   box-sizing: border-box;
   /*height: 80px;*/
   display: flex;

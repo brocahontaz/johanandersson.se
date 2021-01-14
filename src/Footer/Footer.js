@@ -39,7 +39,7 @@ const Footer = () =>
     <div className='Wrapper'>
       <ul>
         {FooterItems.map(item =>(
-          <FooterItem name={item.name} url={item.url} icon={item.icon} iconType={item.iconType}/>
+          <FooterItem name={item.name} url={item.url} icon={item.icon} iconType={item.iconType} key={item.name}/>
         ))}
       </ul>
     </div>
