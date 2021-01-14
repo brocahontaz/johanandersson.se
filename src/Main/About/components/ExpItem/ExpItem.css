@@ -1,0 +1,68 @@
+.ExpItem {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.ExpItem p {
+  font-size: 1.0rem;
+  line-height: 1.6rem;
+  padding-bottom: 0;
+  margin: 10px;
+}
+
+.ExpItem img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 25px;
+  margin-right: 20px;
+}
+
+.ExpItem .Header {
+  height: 50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.ExpItem .Header .Desc {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ExpItem .Header .Desc h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.LocationDuration {
+  color: var(--text-light);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.ExpListItem {
+  margin-top: 10px;
+}
+
+.ExpListItem h5 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 1.0rem;
+}
+
+ul.ExpList {
+  list-style-type: disc;
+  margin: 0;
+}
+
+ul.ExpList li {
+  margin-bottom: 10px;
+  font-weight: 400;
+}

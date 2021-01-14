@@ -1,0 +1,11 @@
+ul.ExperienceList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 15px;
+  overflow: hidden;
+}
+
+ul.ExperienceList li {
+  margin-bottom: 25px;
+}
