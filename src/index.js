@@ -1,15 +1,16 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
-import { BrowserRouter, HashRouter } from 'react-router-dom'
+import { createRoot } from 'react-dom/client';
+import { HashRouter } from 'react-router-dom'
 import './index.css'
 import App from './App'
 import 'fontawesome'
 import { Provider } from 'react-redux'
 import store from 'redux/store'
 
-const rootElement = document.getElementById('root')
+const container = document.getElementById('root')
+const root = createRoot(container);
 
-ReactDOM.render(
+root.render(
   <Provider store={store}>
     <React.StrictMode>
       <HashRouter>
@@ -17,5 +18,4 @@ ReactDOM.render(
       </HashRouter>
     </React.StrictMode>
   </Provider>,
-  rootElement
 )

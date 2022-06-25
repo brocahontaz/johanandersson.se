@@ -11,10 +11,10 @@ const NavBar = ({open}) =>
         <NavLink to='/' className='MenuLink'><FontAwesomeIcon icon='home' /> Home</NavLink>
       </li>
       <li>
-        <NavLink exact to='/about' className='MenuLink'><FontAwesomeIcon icon='address-card' /> About</NavLink>
+        <NavLink to='/about' className='MenuLink'><FontAwesomeIcon icon='address-card' /> About</NavLink>
       </li>
       <li>
-        <NavLink exact to='/projects' className='MenuLink'><FontAwesomeIcon icon='project-diagram' /> Projects</NavLink>
+        <NavLink to='/projects' className='MenuLink'><FontAwesomeIcon icon='project-diagram' /> Projects</NavLink>
       </li>
     </ul>
   </div>

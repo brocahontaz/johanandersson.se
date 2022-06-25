@@ -1,6 +1,5 @@
 import React from 'react'
 import './ProfileCard.css'
-import ProfilePicture from 'assets/profile-transparent.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const ProfileCard = () =>
