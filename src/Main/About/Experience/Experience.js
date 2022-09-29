@@ -5,19 +5,34 @@ import './Experience.css'
 import Section from 'Main/About/components/Section'
 import ExpItem from 'Main/About/components/ExpItem'
 import Sensative from 'assets/sensative.png'
+import Doktor from 'assets/doktor.png'
 
 const experiences = [
   {
+    location: 'Doktor.se Nordic AB',
+    city: 'Stockholm / Remote',
+    duration: '2022-07-04 - now',
+    title: 'DevSecOps Engineer',
+    description: [''],
+    lists: [
+      {
+        name: 'Technologies & Tools',
+        items: ['AWS', 'Terraform', 'Kubernetes', 'Helm', 'FluxCD', 'Node.js', 'Bash', 'Github Actions']
+      }
+    ],
+    icon: Doktor
+  },
+  {
     location: 'Sensative AB',
     city: 'Lund',
-    duration: '2020-09-02 - now',
+    duration: '2020-09-02 - 2022-07-01',
     title: 'DevOps Engineer',
     description: ['Working with a wide range of technologies and tools, with a main focus on, and responsibility of, the underlying infrastructure.',
     'Daily work include implementation and operation of Kubernetes, Docker resources, building custom CLI tools, servers, pipelines, scalability and automation.'],
     lists: [
       {
         name: 'Technologies & Tools',
-        items: ['Kubernetes', 'Helm', 'Docker', 'Node.js', 'Gitlab CI/CD', 'Openstack']
+        items: ['Kubernetes', 'Helm', 'Docker', 'Node.js', 'Bash', 'Ansible', 'Terraform', 'Gitlab CI/CD', 'Openstack']
       }
     ],
     icon: Sensative

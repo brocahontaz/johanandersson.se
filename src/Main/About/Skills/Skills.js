@@ -41,7 +41,7 @@ const skills = [
   },
   {
     name: 'PHP',
-    percentage: '50%',
+    percentage: '45%',
     color: '#4D588E'
   },
   {
@@ -60,13 +60,33 @@ const skills = [
     color: '#0F1585'
   },
   {
+    name: 'Terraform',
+    percentage: '71%',
+    color: '#5A40DD'
+  },
+  {
+    name: 'Ansible',
+    percentage: '76%',
+    color: '#000000'
+  },
+  {
     name: 'Linux',
     percentage: '70%',
     color: '#020204'
   },
   {
+    name: 'Bash',
+    percentage: '65%',
+    color: '#A32C2A'
+  },
+  {
+    name: 'AWS',
+    percentage: '55%',
+    color: '#EA5F06'
+  },
+  {
     name: 'Openstack',
-    percentage: '73%',
+    percentage: '53%',
     color: '#E61742'
   }
 ]
