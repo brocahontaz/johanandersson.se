@@ -9,7 +9,7 @@ jobs:
 
       - name: Install and Build 🔧
         run: |
-          npm Install
+          npm install
           npm run build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.6
