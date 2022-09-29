@@ -9,7 +9,7 @@ const AboutMe = () =>
       Passionate about automation and scaling.  
     </p>  
     <p className='AboutParagraph'>  
-      Studying Software Development and Operations, bachelor's degree as a software developer with an extra focus on the DevOps mindset- both development and operations of software. 
+      Studied Software Development and Operations, bachelor's degree as a software developer with an extra focus on the DevOps mindset- both development and operations of software. 
     </p>  
     <p className='AboutParagraph'>  
       Thrives very well in full stack, from server and infrastructure, backend, all the way to frontend.  
