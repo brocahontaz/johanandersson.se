@@ -9,10 +9,8 @@ jobs:
 
       - name: Install and Build 🔧
         run: |
-          yarn --version
-          yarn set version 3.2.1
-          yarn install
-          yarn run build
+          npm Install
+          npm run build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.6
         with:
