@@ -9,7 +9,8 @@ jobs:
 
       - name: Install and Build 🔧
         run: |
-          yarn version
+          yarn --version
+          yarn set version 3.2.1
           yarn install
           yarn run build
       - name: Deploy 🚀
